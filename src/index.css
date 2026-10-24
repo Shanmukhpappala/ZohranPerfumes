@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body { margin: 0; min-width: 320px; background: #fffaf0; }
+
+button, a { -webkit-tap-highlight-color: transparent; }
